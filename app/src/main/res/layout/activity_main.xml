@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="95dp"
+        android:layout_alignTop="@+id/rect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="211dp"
+        android:drawableTint="#5E3E3E"
+        android:foregroundTint="#AE6C6C"
+        android:text="Routes"
+        android:textColorHighlight="#BF8181"
+        android:textColorLink="#DA9191"
+        app:icon="@android:drawable/ic_menu_directions"
+        app:iconTint="#C8C4C4"
+        app:strokeColor="#5C4B4B" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="768dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-24dp"
+        app:srcCompat="@drawable/backgroundfinal" />
+
+    <ImageView
+        android:id="@+id/rect"
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:layout_alignBottom="@+id/background"
+        android:layout_marginBottom="-43dp"
+        android:tint="#D6CECE"
+        app:srcCompat="@android:drawable/editbox_dropdown_light_frame" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="120dp"
+        android:layout_height="89dp"
+        android:layout_alignTop="@+id/rect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="219dp"
+        android:text="Search"
+        app:icon="?android:attr/actionModeWebSearchDrawable"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="121dp"
+        android:layout_height="93dp"
+        android:layout_alignTop="@+id/rect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="251dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="104dp"
+        android:text="Map"
+        app:icon="@android:drawable/ic_dialog_map"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/busButton"
+        android:layout_width="121dp"
+        android:layout_height="94dp"
+        android:layout_alignTop="@+id/rect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="105dp"
+        android:text="Show Buses"
+        app:icon="@android:drawable/ic_menu_view"
+        app:iconTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/routesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_alignTop="@+id/rect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="214dp"
+        android:text="Routes"
+        app:icon="@android:drawable/ic_menu_directions"
+        app:iconTint="#FFFFFF" />
+
+    <ImageView
+        android:id="@+id/rectTop"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-16dp"
+        android:tint="#D3C5C5"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+</RelativeLayout>
